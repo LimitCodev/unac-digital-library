@@ -237,3 +237,19 @@ client_secret.json
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Docker/DB
+pgdata/
+postgres-data/
+redis-data/
+typesense-data/
+
+docker-compose.override.yml
+
+# Temp Files
+temp/
+tmp/
+*.tmp
+*.bak
+*.pdf
+!requirements.pdf
