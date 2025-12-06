@@ -217,3 +217,23 @@ dist/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Google Drive API credentials
+credentials.json
+token.json
+service-account.json
+client_secret.json
+*.pem
+*.key
+
+# Local React environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
